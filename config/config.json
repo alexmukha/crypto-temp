@@ -13,11 +13,9 @@
       "host": "localhost",
       "dialect": "mysql"
     },
-    "production": {
-      "username": "root",
-      "password": null,
-      "database": "cryptodb_production",
-      "host": "localhost",
+    "production": { 
+      "use_env_variable": "JAWSDB_URL",
+      "host": "https://coin4coin.herokuapp.com/",
       "dialect": "mysql"
     }
   }
