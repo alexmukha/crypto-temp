@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "coin4coin.herokuapp.com",
+  "proxy": "https://coin4coin.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },
